@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="CSS/style2.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aboreto">
+    <style>
+        #title2 {
+            font-family: "Aboreto", sans serif;
+        }
+    </style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glass Antiqua">
+<style>
+    label {
+        font-family: "Glass Antiqua", sans serif;
+    }
+</style>
+</head>
+
+<body>
+
+    <H2 id="title2">CADASTRE-SE</H2>
+    <form action="#" method="post">
+        <label for="Nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Seu primeiro nome">
+        <br>
+        <br>
+        <br>
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Seu último nome">
+        <br>
+        <br>
+        <br>
+
+        <label for="Nascimento">Data de Nascimento: </label>
+        <input type="date" name="Nascimento" id="Nascimento">
+        <br>
+        <br>
+        <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha" placeholder="Somente números">
+        <br>
+        <br>
+        <br>
+
+        <label for="Sexo:">Sexo: </label>
+        <label for=""><input type="radio" name="Sexo" id="Sexo" value="Masculino">Masculino</label>
+        <label for=""><input type="radio" name="Sexo" id="Sexo" value="Feminino">Feminino</label>
+        <br>
+        <br>
+        <br>
+
+        <label for="Cidade">Estado: </label>
+        <select name="Cidade" id="Cidade">
+
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="BA">Bahia</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="SE">Sergipe</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="PA">Pará</option>
+            <option value="TO">Tocantins</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="RO">Rondônia</option>
+            <option value="PI">Piauí</option>
+            <option value="RR">Roraima</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PR">Paraná</option>
+            <option value="PB">Paraíba</option>
+            <option value="MA">Maranhão</option>
+            <option value="GO">Goías</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="CE">Ceará</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+
+        </select>
+        <br>
+        <br>
+        <br>
+
+        <label for="itens">Selecione os itens desejados: </label> <br>
+        <select name="itens" multiple>
+
+            <option value="Begônia">Begônia</option>
+            <option value="Dália">Dália</option>
+            <option value="Lírio">Lírio</option>
+            <option value="Lótus">Lótus</option>
+            <option value="Margarida">Margarida</option>
+            <option value="Narciso">Narciso</option>
+            <option value="Orquídea">Orquídea</option>
+            <option value="Peônia">Peônia</option>
+            <option value="Petúnia">Petúnia</option>
+            <option value="Tulipa">Tulipa</option>
+
+        </select>
+        <br>
+        <br>
+        <br>
+
+        <label for="comentários">Comentários</label><br>
+        <textarea name="Comentários" id="comentários" cols="30" rows="5"></textarea>
+        <br>
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+</body>
+
+</html>
