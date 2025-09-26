@@ -1,0 +1,34 @@
+body{
+    background-color: #e2d5b5 ;
+    
+}
+
+.container-img-texto {
+  display: block;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  
+}
+
+p{
+    font-size: 12px;
+}
+
+h1, #p3{
+    text-align: center;
+    border: 2px solid #BF2A52 ;
+    background-color: #ee4673;
+    color: white;
+}
+
+#title2, h3{
+    text-align: center;
+    color: #ee4673;
+}
+
+div{
+    text-decoration: none;
+}
+
